@@ -26,15 +26,13 @@
 //     prevNum = storage
 // }
 
-// 
+// // doubler
 
-// doubler
+// let num = BigInt('1')
+// let numOfTerms = 0
 
-let num = BigInt('1')
-let numOfTerms = 0
-
-while(numOfTerms < 100) {
-    console.log(num)
-    numOfTerms++
-    num = num*BigInt('2')
-}
+// while(numOfTerms < 100) {
+//     console.log(num)
+//     numOfTerms++
+//     num = num*BigInt('2')
+// }
