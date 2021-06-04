@@ -12,7 +12,7 @@
 //     console.log(output);
 // }
 
-// // fibonacci
+// fibonacci
 
 // let prevNum = BigInt('0')
 // let num = BigInt('1')
@@ -35,4 +35,15 @@
 //     console.log(num)
 //     numOfTerms++
 //     num = num*BigInt('2')
+// }
+
+// // This breaks BigInt if numOfterms > 3
+
+// let num = BigInt('2');
+// let numOfTerms = 0
+
+// while(numOfTerms < 3) {
+//     console.log(num)
+//     numOfTerms++
+//     num = num**num
 // }
